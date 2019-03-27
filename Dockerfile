@@ -25,3 +25,4 @@ RUN R -e "source('https://bioconductor.org/biocLite.R')" \
     argonDash \
     magrittr
 
+RUN rm -rf /tmp/downloaded_packages/ /tmp/*.rds
